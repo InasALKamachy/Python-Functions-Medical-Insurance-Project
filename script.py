@@ -11,7 +11,10 @@ def calculate_insurance_cost(name , age , sex , bmi, num_of_children, smoker):
 # Estimate Maria's insurance cost
 maria_insurance_cost = calculate_insurance_cost(name = "Maria", age = 28, sex = 0, bmi = 26.2, num_of_children = 3, smoker = 0)
 
-
+# Estimate Difference
+def calculate_insurance_difference(maria_insurance_cost, omar_insurance_cost):
+  cost_difference = maria_insurance_cost - omar_insurance_cost
+  print("The difference in insurance cost is " + str(cost_difference) + " dollars.")
 
 
 
